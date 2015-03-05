@@ -1,0 +1,56 @@
+( pcb2gcode 1.1.5 )
+
+( This file uses only one drill bit. Forced by 'onedrill' option )
+
+M7 ( Coolant on. )
+
+G94       (Millimeters per minute feed rate.)
+G21       (Units == Millimeters.)
+G90       (Absolute coordinates.)
+S20000     (RPM spindle speed.)
+
+G00 Z20.00000 (Retract)
+M3      (Spindle on clockwise.)
+
+G81 R5.00000 Z-1.60000 F200.00000 X2.79400 Y33.27400
+X42.16400 Y33.27400
+X42.16400 Y2.79400
+
+(Drill change skipped. Forced by 'onedrill' option.)
+
+G81 R5.00000 Z-1.60000 F200.00000 X42.16400 Y15.49400
+X39.62400 Y15.49400
+X37.08400 Y15.49400
+X37.08400 Y23.11400
+X39.62400 Y23.11400
+X42.16400 Y23.11400
+X35.81400 Y28.19400
+X25.65400 Y28.19400
+X25.65400 Y23.11400
+X25.65400 Y18.03400
+
+(Drill change skipped. Forced by 'onedrill' option.)
+
+G81 R5.00000 Z-1.60000 F200.00000 X6.60400 Y2.79400
+X6.60400 Y5.33400
+X34.54400 Y7.87400
+X37.08400 Y7.87400
+X39.62400 Y7.87400
+X42.16400 Y7.87400
+
+(Drill change skipped. Forced by 'onedrill' option.)
+
+G81 R5.00000 Z-1.60000 F200.00000 X20.57400 Y18.03400
+X16.76400 Y12.95400
+X7.87400 Y18.03400
+X4.06400 Y12.95400
+X7.87400 Y23.11400
+X4.06400 Y28.19400
+X16.76400 Y28.19400
+X20.57400 Y23.11400
+
+G00 Z20.00000 (All done -- retract)
+
+M9      (Coolant off.)
+M2      (Program end.)
+
