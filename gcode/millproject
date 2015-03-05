@@ -1,0 +1,28 @@
+preamble = preamble
+
+metric = yes
+metricoutput = yes
+drill-front = yes
+mirror-absolute = yes
+g64 = 0
+
+mill-feed = 200
+mill-speed = 20000
+zsafe = 5
+zwork = 0
+offset = 0.4
+
+drill-feed = 200
+drill-speed = 20000
+zchange = 20
+zdrill = -1.6
+onedrill = yes
+
+zcut = 0
+cutter-diameter = 1.6
+cut-feed = 120
+cut-speed = 20000
+cut-infeed = 4
+bridges = 2
+# Für einseitige Platinen diese Zeile auskommentieren:
+#cut-front = yes

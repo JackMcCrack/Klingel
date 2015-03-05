@@ -2070,7 +2070,7 @@ ultra fast-recovery rectifier</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="eagle-ltspice" deviceset="R" device="0207/10" value="1k"/>
+<part name="R1" library="eagle-ltspice" deviceset="R" device="0207/10" value="1.5k"/>
 <part name="C1" library="capacitor-wima" deviceset="C" device="5/4.5"/>
 <part name="D1" library="diode" deviceset="EGP20A" device=""/>
 <part name="D2" library="diode" deviceset="EGP20A" device=""/>
